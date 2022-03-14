@@ -1,5 +1,5 @@
 import { pokeApi } from '../api'
-import { PokemonResponse } from '../interface'
+import { PokemonResponse } from '../interfaces'
 
 export const getPokemonInfo = async( nameOrId: String ) => {
 
